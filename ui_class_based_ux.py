@@ -64,6 +64,15 @@ work_report_menue = UserMenue(
     }
 )
 
+register_work_report_menue = UserMenue(
+    name="Register Work Report",
+    choices={
+        "N": UserMenueItem(name="New Work Report", action="NewWorkReport"),
+        "B": back_item,
+        "Q": quit_item,
+    }
+)
+
 # ---------------------------------
 # Usage:
 
